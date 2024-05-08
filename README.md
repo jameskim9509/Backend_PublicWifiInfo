@@ -19,64 +19,63 @@ Also with adequate css, jsp, javascript, html coding, webserver can display clea
 3. 북마크 그룹을 생성해 원하는 와이파이 정보를 북마크로 관리(추가, 수정, 삭제)
 4. 내 위치 정보를 조회한 시간별로 저장
 
-소스 구조
-Public_Wifi_Info                                                                                 
-├─ src                                                   
-│  └─ main                                               
-│     ├─ java                                            
-│     │  ├─ mvc                                          
-│     │  │  ├─ Adapter.java                              
-│     │  │  ├─ AddBookmarkGroupController.java           
-│     │  │  ├─ AddBookmarkGroupSubmitController.java     
-│     │  │  ├─ AddBookmarkSubmitController.java          
-│     │  │  ├─ Controller.java                           
-│     │  │  ├─ ControllerAdapter.java                    
-│     │  │  ├─ DeleteBookmarkController.java             
-│     │  │  ├─ DeleteBookmarkGroupController.java        
-│     │  │  ├─ DeleteBookmarkGroupSubmitController.java  
-│     │  │  ├─ DeleteBookmarkSubmitController.java       
-│     │  │  ├─ DeleteHistorySubmitController.java        
-│     │  │  ├─ DetailController.java                     
-│     │  │  ├─ EditBookmarkGroupController.java          
-│     │  │  ├─ EditBookmarkGroupSubmitController.java    
-│     │  │  ├─ FrontController.java                      
-│     │  │  ├─ HistoryController.java                    
-│     │  │  ├─ HomeController.java                       
-│     │  │  ├─ LoadWifiController.java                   
-│     │  │  ├─ ManageBookmarkGroupController.java        
-│     │  │  ├─ ModelView.java                            
-│     │  │  ├─ ShowBookmarkListController.java           
-│     │  │  └─ View.java                                 
-│     │  ├─ repository                                   
-│     │  │  ├─ Bookmark_Repository.java                  
-│     │  │  ├─ History_Repository.java                   
-│     │  │  └─ Public_Wifi_Info_Repository.java          
-│     │  └─ thread                                       
-│     │     ├─ LoadWifiInfoThread.java                   
-│     │     └─ LoadWifiThreadManager.java                
-│     └─ webapp                                          
-│        ├─ META-INF                                     
-│        │  └─ MANIFEST.MF                               
-│        ├─ WEB-INF                                      
-│        │  ├─ lib                                       
-│        │  ├─ add-bookmark-submit.jsp                   
-│        │  ├─ add-bookmarkGroup-submit.jsp              
-│        │  ├─ add-bookmarkGroup.jsp                     
-│        │  ├─ delete-bookmark-submit.jsp                
-│        │  ├─ delete-bookmark.jsp                       
-│        │  ├─ delete-bookmarkGroup-submit.jsp           
-│        │  ├─ delete-bookmarkGroup.jsp                  
-│        │  ├─ delete-history-submit.jsp                 
-│        │  ├─ detail.jsp                                
-│        │  ├─ edit-bookmarkGroup-submit.jsp             
-│        │  ├─ edit-bookmarkGroup.jsp                    
-│        │  ├─ history.jsp                               
-│        │  ├─ home.jsp                                  
-│        │  ├─ load-wifi.jsp                             
-│        │  ├─ manage-bookmarkGroup.jsp                  
-│        │  ├─ show-bookmarkList.jsp                     
-│        │  └─ wait.jsp                                  
-│        └─ style.css                                    
+소스 구조                                                                              
+src                                                   
+  └─ main                                               
+     ├─ java                                            
+     │  ├─ mvc                                          
+     │  │  ├─ Adapter.java                              
+     │  │  ├─ AddBookmarkGroupController.java           
+     │  │  ├─ AddBookmarkGroupSubmitController.java     
+     │  │  ├─ AddBookmarkSubmitController.java          
+     │  │  ├─ Controller.java                           
+     │  │  ├─ ControllerAdapter.java                    
+     │  │  ├─ DeleteBookmarkController.java             
+     │  │  ├─ DeleteBookmarkGroupController.java        
+     │  │  ├─ DeleteBookmarkGroupSubmitController.java  
+     │  │  ├─ DeleteBookmarkSubmitController.java       
+     │  │  ├─ DeleteHistorySubmitController.java        
+     │  │  ├─ DetailController.java                     
+     │  │  ├─ EditBookmarkGroupController.java          
+     │  │  ├─ EditBookmarkGroupSubmitController.java    
+     │  │  ├─ FrontController.java                      
+     │  │  ├─ HistoryController.java                    
+     │  │  ├─ HomeController.java                       
+     │  │  ├─ LoadWifiController.java                   
+     │  │  ├─ ManageBookmarkGroupController.java        
+     │  │  ├─ ModelView.java                            
+     │  │  ├─ ShowBookmarkListController.java           
+     │  │  └─ View.java                                 
+     │  ├─ repository                                   
+     │  │  ├─ Bookmark_Repository.java                  
+     │  │  ├─ History_Repository.java                   
+     │  │  └─ Public_Wifi_Info_Repository.java          
+     │  └─ thread                                       
+     │     ├─ LoadWifiInfoThread.java                   
+     │     └─ LoadWifiThreadManager.java                
+     └─ webapp                                          
+        ├─ META-INF                                     
+        │  └─ MANIFEST.MF                               
+        ├─ WEB-INF                                      
+        │  ├─ lib                                       
+        │  ├─ add-bookmark-submit.jsp                   
+        │  ├─ add-bookmarkGroup-submit.jsp              
+        │  ├─ add-bookmarkGroup.jsp                     
+        │  ├─ delete-bookmark-submit.jsp                
+        │  ├─ delete-bookmark.jsp                       
+        │  ├─ delete-bookmarkGroup-submit.jsp           
+        │  ├─ delete-bookmarkGroup.jsp                  
+        │  ├─ delete-history-submit.jsp                 
+        │  ├─ detail.jsp                                
+        │  ├─ edit-bookmarkGroup-submit.jsp             
+        │  ├─ edit-bookmarkGroup.jsp                    
+        │  ├─ history.jsp                               
+        │  ├─ home.jsp                                  
+        │  ├─ load-wifi.jsp                             
+        │  ├─ manage-bookmarkGroup.jsp                  
+        │  ├─ show-bookmarkList.jsp                     
+        │  └─ wait.jsp                                  
+        └─ style.css                                    
 <br>                                                                     
 
 ERD 파일 <br>
