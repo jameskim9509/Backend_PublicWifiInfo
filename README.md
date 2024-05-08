@@ -1,4 +1,4 @@
-![image](https://github.com/jameskim9509/Backend_PublicWifiInfo/assets/169232124/09ec5828-1739-4464-ad6c-5984f2bab223)# BackendSchool_PublicWifiInfo
+#BackendSchool_PublicWifiInfo
   get PublicWifiInfo by seoul_openAPI and manage data
 
 implement MVC pattern in servlet coding. <br>
