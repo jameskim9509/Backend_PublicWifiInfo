@@ -1,0 +1,33 @@
+@charset "UTF-8";
+<style>
+temp {
+	width:100%;
+}
+
+table {
+	width:100%;
+	border:1px;
+}
+
+th, td {
+	font-size: 13px;
+}
+
+th {
+	color:#ffffff;
+	background-color: #02a96f;
+}
+tr:nth-child(even){
+	background-color:#f2f2f2;
+}
+tr:nth-child(odd){
+	background-color:#ffffff;
+}
+tr:hover {
+	background-color:#dddddd;
+}
+
+p{
+	font-size:15px;
+}
+</style>
