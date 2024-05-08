@@ -21,4 +21,4 @@ Also with adequate css, jsp, javascript, html coding, webserver can display clea
 
 ERD 파일 <br>
 (하나의 북마크는 하나의 와이파이 정보를 반드시 가지지만, 와이파이 정보는 여러 북마크로 지정될 수도 있고 지정되지 않을 수도 잇다.) <br><br>
-<img width="800px" height="500px" src = "./ERD_capture.PNG">
+<img width="600px" height="400px" src = "./ERD_capture.PNG">
