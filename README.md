@@ -1,4 +1,4 @@
-#BackendSchool_PublicWifiInfo
+# BackendSchool_PublicWifiInfo
   get PublicWifiInfo by seoul_openAPI and manage data
 
 implement MVC pattern in servlet coding. <br>
