@@ -13,5 +13,6 @@ with database crud functions and joining, webserver can display appropriate page
 
 Also with adequate css, jsp, javascript, html coding, webserver can display clean and readable web page 
 
-ERD 파일 (하나의 북마크는 하나의 와이파이 정보를 반드시 가지지만, 와이파이 정보는 여러 북마크로 지정될 수도 있고 지정되지 않을 수도 잇다.)
-<img src = "./ERD_capture.PNG">
+ERD 파일 <br>
+(하나의 북마크는 하나의 와이파이 정보를 반드시 가지지만, 와이파이 정보는 여러 북마크로 지정될 수도 있고 지정되지 않을 수도 잇다.)
+<img width="30px" height="30px" src = "./ERD_capture.PNG">
