@@ -19,7 +19,7 @@ Also with adequate css, jsp, javascript, html coding, webserver can display clea
 3. 북마크 그룹을 생성해 원하는 와이파이 정보를 북마크로 관리(추가, 수정, 삭제)
 4. 내 위치 정보를 조회한 시간별로 저장
 
-프로젝트 구조
+소스 구조
 Public_Wifi_Info                                                                                 
 ├─ src                                                   
 │  └─ main                                               
@@ -77,10 +77,7 @@ Public_Wifi_Info
 │        │  ├─ show-bookmarkList.jsp                     
 │        │  └─ wait.jsp                                  
 │        └─ style.css                                    
-<br>                        
-├─ 참고 영상                                                 
-│  ├─ Open API를 사용해 와이파이 정보 얻어오기.mp4                     
-│  └─ 와이파이 정보구하기 기능 확인.mp4                                                
+<br>                                                                     
 
 ERD 파일 <br>
 (하나의 북마크는 하나의 와이파이 정보를 반드시 가지지만, 와이파이 정보는 여러 북마크로 지정될 수도 있고 지정되지 않을 수도 잇다.) <br><br>
