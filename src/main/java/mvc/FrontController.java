@@ -66,6 +66,7 @@ public class FrontController extends HttpServlet {
 		String requestURI = request.getRequestURI();
 		String contextPath = request.getContextPath();
 		requestURI = requestURI.replaceAll(contextPath, "");
+//		requestURI = requestURI.replaceAll("Public_Wifi_Info/", "");
 		Object handler = controllerMap.get(requestURI);
 		if(handler == null) return;
 		
