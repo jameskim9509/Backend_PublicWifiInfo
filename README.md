@@ -14,10 +14,10 @@ with database crud functions and joining, webserver can display appropriate page
 Also with adequate css, jsp, javascript, html coding, webserver can display clean and readable web page 
 
 프로젝트 소스 폴더 구조
-<img src="Project Folder structure.PNG" width="600px" height="300px">                                   
+<img src="Project Folder structure.PNG" width="700px" height="300px">                                   
+
+
 <br><br>
-
-
 주요 기능
 1. 서울 공공 와이파이 api를 통해 와이파이 정보들을 얻어와 데이터베이스에 저장
 2. 내 위치 정보를 얻어오고, 가까운 위치(거리) 순서로 웹 페이지에 20개의 와이파이 정보를 표시
