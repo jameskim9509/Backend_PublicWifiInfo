@@ -12,3 +12,6 @@ with database crud functions and joining, webserver can display appropriate page
 (like bookmark and bookmarkgroup, wifi information around me, etc)
 
 Also with adequate css, jsp, javascript, html coding, webserver can display clean and readable web page 
+
+ERD 파일
+<img src = "./참고 자료/ERD 캡처">
