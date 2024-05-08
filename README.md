@@ -14,8 +14,8 @@ with database crud functions and joining, webserver can display appropriate page
 Also with adequate css, jsp, javascript, html coding, webserver can display clean and readable web page 
 
 프로젝트 소스 폴더 구조
-<img src="Project Folder structure.PNG" width="500px" height="300px">                                   
-                                                           
+<img src="Project Folder structure.PNG" width="600px" height="300px">                                   
+<br><br>
 
 
 주요 기능
