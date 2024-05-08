@@ -77,7 +77,7 @@ Public_Wifi_Info
 │        │  ├─ show-bookmarkList.jsp                     
 │        │  └─ wait.jsp                                  
 │        └─ style.css                                    
-<br><br>                         
+<br>                        
 ├─ 참고 영상                                                 
 │  ├─ Open API를 사용해 와이파이 정보 얻어오기.mp4                     
 │  └─ 와이파이 정보구하기 기능 확인.mp4                                                
