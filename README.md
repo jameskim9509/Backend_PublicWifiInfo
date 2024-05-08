@@ -13,6 +13,20 @@ with database crud functions and joining, webserver can display appropriate page
 
 Also with adequate css, jsp, javascript, html coding, webserver can display clean and readable web page 
 
+프로젝트 소스 폴더 구조
+Public_Wifi_Info                                         
+├─ build                                                 
+   └─ classes                                            
+├─ src                                                   
+  └─ main                                               
+     ├─ java                                            
+     │  ├─ mvc (서블릿을 통해 프론트 컨트롤러 ~ 모델 뷰 MVC 패턴 구현)                                                                         
+     │  ├─ repository (Open API를 통해 얻어온 정보 및 북마크 정보를 DB에 저장 및 처리 구현)                                   
+     │  └─ thread (Open API를 통해 정보를 저장하는 스레드 구현)                                      
+     └─ webapp (웹 페이지 (html, css, javascript, jstl 및 jsp 등))                                         
+                                                           
+
+
 주요 기능
 1. 서울 공공 와이파이 api를 통해 와이파이 정보들을 얻어와 데이터베이스에 저장
 2. 내 위치 정보를 얻어오고, 가까운 위치(거리) 순서로 웹 페이지에 20개의 와이파이 정보를 표시
