@@ -20,9 +20,7 @@ Also with adequate css, jsp, javascript, html coding, webserver can display clea
 4. 내 위치 정보를 조회한 시간별로 저장
 
 프로젝트 구조
-Public_Wifi_Info                                         
-├─ build                                                 
-│  └─ classes                                            
+Public_Wifi_Info                                                                                 
 ├─ src                                                   
 │  └─ main                                               
 │     ├─ java                                            
@@ -79,56 +77,10 @@ Public_Wifi_Info
 │        │  ├─ show-bookmarkList.jsp                     
 │        │  └─ wait.jsp                                  
 │        └─ style.css                                    
-├─ target                                                
-│  ├─ classes                                            
-│  │  ├─ mvc                                             
-│  │  │  ├─ Adapter.class                                
-│  │  │  ├─ AddBookmarkGroupController.class             
-│  │  │  ├─ AddBookmarkGroupSubmitController$1.class     
-│  │  │  ├─ AddBookmarkGroupSubmitController.class       
-│  │  │  ├─ AddBookmarkSubmitController.class            
-│  │  │  ├─ Controller.class                             
-│  │  │  ├─ ControllerAdapter.class                      
-│  │  │  ├─ DeleteBookmarkController.class               
-│  │  │  ├─ DeleteBookmarkGroupController.class          
-│  │  │  ├─ DeleteBookmarkGroupSubmitController.class    
-│  │  │  ├─ DeleteBookmarkSubmitController.class         
-│  │  │  ├─ DeleteHistorySubmitController.class          
-│  │  │  ├─ DetailController.class                       
-│  │  │  ├─ EditBookmarkGroupController.class            
-│  │  │  ├─ EditBookmarkGroupSubmitController.class      
-│  │  │  ├─ FrontController.class                        
-│  │  │  ├─ HistoryController.class                      
-│  │  │  ├─ HomeController$1.class                       
-│  │  │  ├─ HomeController.class                         
-│  │  │  ├─ LoadWifiController.class                     
-│  │  │  ├─ ManageBookmarkGroupController.class          
-│  │  │  ├─ ModelView.class                              
-│  │  │  ├─ ShowBookmarkListController.class             
-│  │  │  └─ View.class                                   
-│  │  ├─ repository                                      
-│  │  │  ├─ Bookmark_Repository.class                    
-│  │  │  ├─ History_Repository.class                     
-│  │  │  └─ Public_Wifi_Info_Repository.class            
-│  │  └─ thread                                          
-│  │     ├─ LoadWifiInfoThread.class                     
-│  │     └─ LoadWifiThreadManager.class                  
-│  ├─ m2e-wtp                                            
-│  │  └─ web-resources                                   
-│  │     └─ META-INF                                     
-│  │        ├─ maven                                     
-│  │        │  └─ BackEnd_School                         
-│  │        │     └─ Public_Wifi_Info                    
-│  │        │        ├─ pom.properties                   
-│  │        │        └─ pom.xml                          
-│  │        └─ MANIFEST.MF                               
-│  └─ test-classes                                       
+<br><br>                         
 ├─ 참고 영상                                                 
 │  ├─ Open API를 사용해 와이파이 정보 얻어오기.mp4                     
-│  └─ 와이파이 정보구하기 기능 확인.mp4                               
-├─ ERD_capture.PNG                                       
-├─ pom.xml                                               
-└─ README.md                 
+│  └─ 와이파이 정보구하기 기능 확인.mp4                                                
 
 ERD 파일 <br>
 (하나의 북마크는 하나의 와이파이 정보를 반드시 가지지만, 와이파이 정보는 여러 북마크로 지정될 수도 있고 지정되지 않을 수도 잇다.) <br><br>
