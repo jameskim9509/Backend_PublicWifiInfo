@@ -14,4 +14,4 @@ with database crud functions and joining, webserver can display appropriate page
 Also with adequate css, jsp, javascript, html coding, webserver can display clean and readable web page 
 
 ERD 파일
-<img src = "./참고 자료/ERD 캡처">
+<img src = "./ERD_capture">
